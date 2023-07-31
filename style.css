@@ -55,8 +55,7 @@ a:hover {
 }
 
 .list-inline {
-  padding-right: 15;
-}
+  padding-left: 0;
 
 img {
   width: 150px;
