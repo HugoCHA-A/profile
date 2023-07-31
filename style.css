@@ -1,0 +1,92 @@
+body {
+  background-color: #F6F4EB;
+  font-family: 'Open Sans';
+  font-size: 15px;
+  font-weight: light;
+  line-height: 15px;
+}
+
+.title-color {
+  color: #a52020;
+  font-family: "Roboto";
+  font-size: 30px;
+}
+
+.sub-title-color {
+  color: #0004ff;
+  font-family: "Roboto";
+  font-size: 21px;
+  line-height: 10px;
+}
+
+.link-inline {
+  text-decoration: none;
+  color: #3071eb;
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color: #00cfc5;
+  color: rgb(55, 2, 80);
+}
+
+.container {
+  margin: 0px auto;
+  width: 500px;
+}
+
+.card {
+  background: #72ff47;
+  border: 1px solid rgb(87, 0, 79) ;
+  border-radius: 10px;
+  box-shadow: 0 0px 30px rgba(2, 46, 104, 1);
+  margin: 20px auto;
+  padding: 5px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.list-inline li {
+  display: inline;
+  list-style: none;
+  font-size: 30px;
+  padding-inline-start: 10px;
+  padding-right: 25px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.btn-color {
+  background-color: #bd0303;
+  color: White;
+  padding: 5px;
+  border-radius: 10%;
+}
+
+@media (max-width: 1326px) {
+  .container {
+    width: 800px;
+  }
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
