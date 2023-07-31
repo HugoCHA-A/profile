@@ -54,6 +54,10 @@ a:hover {
   padding-right: 25px;
 }
 
+.list-inline {
+  padding-right: 15;
+}
+
 img {
   width: 150px;
   height: 150px;
