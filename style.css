@@ -50,12 +50,14 @@ a:hover {
   display: inline;
   list-style: none;
   font-size: 30px;
-  padding-inline-start: 10px;
-  padding-right: 25px;
+}
+
+.list-inline li:nth-child(2) {
+  padding-inline: 10px;
 }
 
 .list-inline {
-  padding-left: 0px;
+  padding-left: 0;
 }
 
 img {
